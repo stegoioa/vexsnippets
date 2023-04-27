@@ -1,10 +1,12 @@
+<pre>
+
 # vexsnippets
 Useful VEX Code Snippets
 
 VEX Code Snippets
 This repository contains a collection of VEX code snippets that are commonly used in Houdini workflows. The purpose of this repository is to provide a quick and easy way for Houdini users to integrate these code snippets into their VEX pipelines.
 
-rand_removepoint1
+### rand_removepoint1
 
 // removes random point with certain probability 
 // run over points, create spare parameters
@@ -945,3 +947,5 @@ if (xyz_prim > @primnum && xyz_dist < 0.001)
     removeprim(geoself(), @primnum, 1);
 else if ( xyz_prim < @primnum && xyz_dist < 0.001)
     removeprim(geoself(), xyz_prim, 1);
+    
+    <pre>
